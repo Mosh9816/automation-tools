@@ -145,3 +145,6 @@ End Function
 - 自動で今日の日付を提案
 - チェック処理（照合・判定）との連携
 - UI ボタンの追加（必要に応じて）
+
+## 🔗 関連ツール
+- [Data Check Tool](../data-check-tool)
