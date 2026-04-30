@@ -196,3 +196,6 @@ End Sub
 - NG の種類別に色分け
 - チェック結果の自動メール送信
 - チェック対象の列を可変にする設定画面の追加
+
+## 🔗 関連ツール
+- [Format Generator](../format-generator)
