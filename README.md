@@ -14,8 +14,7 @@
 - [Format Generator](./format-generator)  
   日次チェック作業のフォーマットを自動生成する Excel VBA ツール。
 
-- [data-check-tool](./-data-check-tool)
-  
-
+- [data-check-tool](./data-check-tool)  
+  取込データと system_data を照合し、OK/NG を自動判定するチェックツール。
 
 
