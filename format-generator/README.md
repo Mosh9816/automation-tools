@@ -148,3 +148,4 @@ End Function
 
 ## 🔗 関連ツール
 - [Data Check Tool](../data-check-tool)
+- [mail-auto-tool](./mail-auto-tool)
