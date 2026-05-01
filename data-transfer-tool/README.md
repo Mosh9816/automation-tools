@@ -121,9 +121,9 @@ End Sub
 - 保存先フォルダ（各自の PC に合わせて変更）：
 ```text
 C:\Users\YourName\Desktop\日時処理データ\
-例（ユーザー名が siori の場合）：
 ```
 
+- 例（ユーザー名が siori の場合）：
 ```text
 C:\Users\siori\Desktop\日時処理データ\
 ```
