@@ -16,20 +16,29 @@ Web から取得し、PDF Rename Tool でリネームされた PDF を
 ---
 
 ## ⚙️ フロー構成（Flow）
-### 1. リネーム済み PDF のフォルダを取得  
-   例：C:\Users\ユーザー名\Downloads\pdf-set-renamed\
+1. リネーム済み PDF のフォルダを取得    
+   例：
+   ```text 
+   C:\Users\ユーザー名\Downloads\pdf-set-renamed\
+   ```
 
-### 2. 今日の日付フォルダを自動生成  
-   例：C:\automation-tools\output\2026-05-01\
+3. 今日の日付フォルダを自動生成     
+   例：
+   ```text
+   C:\automation-tools\output\2026-05-01\
+   ```
 
-### 3. PDF を日付フォルダへ移動
+4. PDF を日付フォルダへ移動
 
-### 4. バックアップフォルダを作成  
-   例：C:\automation-tools\backup\2026-05-01\
+5. バックアップフォルダを作成    
+   例：
+   ```text 
+      C:\automation-tools\backup\2026-05-01\
+   ```
 
-### 5. PDF をバックアップへコピー
+6. PDF をバックアップへコピー
 
-### 6. 完了メッセージを表示
+7. 完了メッセージを表示
 
 ---
 
