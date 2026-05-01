@@ -159,7 +159,5 @@ End Sub
 
 ## 🔗 関連ツール
 - [Format Generator](../format-generator)  
-  チェック作業で使用する system_data を生成するツール。
-
 - [mail-auto-tool](../mail-auto-tool)  
-  system_data を利用して NG 行のエラー通知メールを自動作成するツール。
+
