@@ -89,4 +89,4 @@ Downloads 内に バックアップ フォルダを作成。
 ---
 
 ## 🔗 関連ツール
-- [PDF Rename Tool](./pdf-rename-tool)
+- [PDF Rename Tool](../pdf-rename-tool)
