@@ -99,11 +99,11 @@ PDFリネームツール.xlsm
 ---
 
 ## ▶️ 実行方法（How to Run）
-1. Power Automate Desktop を起動
-2.新規フローを作成
-3.リネームフロー.txt を開き、内容をすべてコピー
-4.PAD のフロー編集画面に貼り付け
-5.PDFリネームツール.xlsm を Downloads フォルダに配置
+1. Power Automate Desktop を起動  
+2.新規フローを作成  
+3.リネームフロー.txt を開き、内容をすべてコピー  
+4.PAD のフロー編集画面に貼り付け  
+5.PDFリネームツール.xlsm を Downloads フォルダに配置  
 6.フローを実行するだけで完了
 
 ---
