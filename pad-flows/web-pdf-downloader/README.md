@@ -1,53 +1,42 @@
 
-📥 Web PDF Downloader（PAD）
-Web 上に公開された PDF 一式（ZIP）を自動ダウンロードし、
+# 📥 Web PDF Downloader（PAD）
+Web 上に公開された PDF 一式（ZIP）を自動ダウンロードし、  
 解凍して PDF Rename Tool に渡すための PAD フローです。
 
 実務でよくある
-「資料 ZIP をダウンロード → 展開 → リネーム → 整理」  
-という一連の作業を自動化します。
+**「資料 ZIP をダウンロード → 展開 → リネーム → 整理」**という一連の作業を自動化します。
 
-📝 概要（Overview）
-GitHub に置いた dummy-pdf-set.zip を自動ダウンロード
+## 📝 概要（Overview）
+- GitHub に置いた dummy-pdf-set.zip を自動ダウンロード
+- ZIP を解凍して PDF を展開
+- PDF Rename Tool に渡せる状態に整える
+- file-organizer フローと連携可能
 
-ZIP を解凍して PDF を展開
+## 🎯 目的（Purpose）
+- Web からの資料取得を自動化
+- PDF Rename Tool との連携を前提とした前処理
+- ZIP 展開 → PDF 整理の手作業を削減
+- RPA × Excel VBA の実務フローを再現
 
-PDF Rename Tool に渡せる状態に整える
+## ⚙️ フロー構成（Flow）
+1. ブラウザ（Edge/Chrome）を起動
+2. GitHub Raw の ZIP URL を開く
+3. Ctrl+S で ZIP をダウンロード
+4. ダウンロードフォルダに保存
+5. ZIP を解凍
+6. 展開された PDF フォルダを取得
+7. 完了メッセージ表示
 
-file-organizer フローと連携可能
+**※ この後、pdf-rename-runner フローで PDF Rename Tool を実行します。**
 
-🎯 目的（Purpose）
-Web からの資料取得を自動化
-
-PDF Rename Tool との連携を前提とした前処理
-
-ZIP 展開 → PDF 整理の手作業を削減
-
-RPA × Excel VBA の実務フローを再現
-
-⚙️ フロー構成（Flow）
-ブラウザ（Edge/Chrome）を起動
-
-GitHub Raw の ZIP URL を開く
-
-Ctrl+S で ZIP をダウンロード
-
-ダウンロードフォルダに保存
-
-ZIP を解凍
-
-展開された PDF フォルダを取得
-
-完了メッセージ表示
-
-※ この後、pdf-rename-runner フローで PDF Rename Tool を実行します。
-
-📂 フォルダ構成（Folder Structure）
-コード
+## 📂 フォルダ構成（Folder Structure）
+'''text
 web-pdf-downloader/
 ├─ flow.json
 ├─ dummy-pdf-set.zip
 └─ README.md
+'''
+
 📦 dummy-pdf-set.zip の内容
 コード
 10001_請求書.pdf
