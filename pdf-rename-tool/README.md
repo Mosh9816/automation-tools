@@ -159,5 +159,6 @@ End Sub
 
 ## 🔗 関連ツール
 - [Format Generator](../format-generator)  
-- [mail-auto-tool](../mail-auto-tool)  
+- [mail-auto-tool](../mail-auto-tool)
+- [pdf-rename-runner](../pdf-rename-runner)
 
