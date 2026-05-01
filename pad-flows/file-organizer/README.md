@@ -78,6 +78,6 @@ file-organizer/
 
 
 ## 🔗 関連ツール（Related Tools）
-- PDF Rename Tool（Excel VBA）
-- web-pdf-downloader（PAD）
-- pdf-rename-runner（PAD）
+- [PDF Rename Tool](./pdf-rename-Tool)（Excel VBA）
+- [web-pdf-downloader](./web-pdf-downloader)（PAD）
+- [pdf-rename-runner](./pdf-rename-runner)（PAD）
