@@ -20,3 +20,7 @@
 - [mail-auto-tool](./mail-auto-tool)  
   NG 行をもとに Outlook 下書きを自動生成するツール。
 
+- [PDF Rename Tool](./pdf-rename-tool)
+  system_data の管理番号・文書名に基づき、PDF を一括で命名規則に沿ってリネームするツール。
+
+
