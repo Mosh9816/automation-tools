@@ -158,5 +158,8 @@ End Sub
 - PDF の中身を検索して管理番号を抽出する高度版
 
 ## 🔗 関連ツール
-- [Format Generator](../format-generator)
-- [mail-auto-tool](./mail-auto-tool)
+- [Format Generator](../format-generator)  
+  チェック作業で使用する system_data を生成するツール。
+
+- [mail-auto-tool](../mail-auto-tool)  
+  system_data を利用して NG 行のエラー通知メールを自動作成するツール。
