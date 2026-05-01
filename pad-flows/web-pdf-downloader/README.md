@@ -4,7 +4,7 @@ Web 上に公開された PDF 一式（ZIP）を自動ダウンロードし、
 解凍して PDF Rename Tool に渡すための PAD フローです。
 
 実務でよくある
-**「資料 ZIP をダウンロード → 展開 → リネーム → 整理」**という一連の作業を自動化します。
+**資料 ZIP をダウンロード → 展開 → リネーム → 整理**という一連の作業を自動化します。
 
 ## 📝 概要（Overview）
 - GitHub に置いた dummy-pdf-set.zip を自動ダウンロード
@@ -55,8 +55,7 @@ system_data（10001〜10010）と一致するため、
 PDF Rename Tool で正しくリネームできます。
 
 ## 🔗 関連フロー（Related Flows）
-pdf-rename-runner  
-→ PDF Rename Tool を PAD から実行するフロー
-
-file-organizer  
+- [pdf-rename-runner](./pdf-rename-runner)  
+→ PDF Rename Tool を PAD から実行するフロー  
+- [file-organizer](./file-organizer)  
 → リネーム後の PDF を整理・移動するフロー
