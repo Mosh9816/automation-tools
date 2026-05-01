@@ -149,7 +149,7 @@ C:\Users\siori\Desktop\日時処理データ\
 
 ---
 
-🌈 今後の拡張案（Future Enhancements）
+## 🌈 今後の拡張案（Future Enhancements）
 - 転記対象列の可変化
 - 保存先フォルダの設定画面追加
 - 転記結果の自動メール送信
