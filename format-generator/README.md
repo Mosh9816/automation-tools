@@ -150,5 +150,5 @@ End Function
 - [Data Check Tool](../data-check-tool)  
   取込データと system_data を照合し、OK/NG を自動判定するチェックツール。
    
-- [mail-auto-tool](./mail-auto-tool)  
+- [mail-auto-tool](../mail-auto-tool)  
   NG 行をもとに Outlook 下書きを自動生成するツール。
