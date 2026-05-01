@@ -23,6 +23,6 @@
 - [pdf-rename-tool](./pdf-rename-tool)  
   system_data の管理番号・文書名に基づき、PDF を一括で命名規則に沿ってリネームするツール。
 
-- [pdf-rename-runner](./pdf-rename-runner)
+- [pdf-rename-runner](./pdf-rename-runner)  
   ZIP ダウンロード → 解凍 → PDF リネーム → バックアップまでを自動化する PAD フロー。
 
