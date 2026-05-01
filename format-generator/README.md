@@ -147,5 +147,8 @@ End Function
 - UI ボタンの追加（必要に応じて）
 
 ## 🔗 関連ツール
-- [Data Check Tool](../data-check-tool)
-- [mail-auto-tool](./mail-auto-tool)
+- [Data Check Tool](../data-check-tool)  
+  取込データと system_data を照合し、OK/NG を自動判定するチェックツール。
+   
+- [mail-auto-tool](./mail-auto-tool)  
+  NG 行をもとに Outlook 下書きを自動生成するツール。
