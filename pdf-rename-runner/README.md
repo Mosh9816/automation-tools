@@ -1,4 +1,4 @@
-# 📄 PDF Rename Runner（PDFリネームフロー）
+# 🌟 PDF Rename Runner（PDFリネームフロー）
 Power Automate Desktop（PAD）で動作する PDF リネーム自動化フローです。  
 **GitHub から ZIP をダウンロードし、解凍 → Excel マクロでリネーム → バックアップ作成**までを自動で実行します。
 
